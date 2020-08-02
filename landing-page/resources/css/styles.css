@@ -1,3 +1,4 @@
+/* ----- DEFAULT SETUP ----- */
 * {
     padding: 0px;
     margin: 0px;
@@ -11,6 +12,47 @@ html {
     background-color: #ffffff;
     text-rendering: optimizeLegibility;
     /* mac dinh la 16px */
+}
+
+/* ----- REUSABLE COMPONENT ----- */
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #e67e22;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 0 5px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #d35400;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: white;
+    line-height: 135%;
+    margin-bottom: 50px;
 }
 
 /* ----- HEADER ----- */
@@ -58,13 +100,12 @@ header {
     border-bottom: 2px solid #cccccc;
 }
 
-.clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
+.heading-main-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -55%);
+    width: 1140px;
 }
 
-.row {
-    width: 1140px;
-    margin: 0 auto;
-}
+/* ----- ABOUT SECTION ----- */
