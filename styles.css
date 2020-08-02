@@ -15,11 +15,14 @@ h1 {
     border-style: dotted;
     padding: 20px 0 50px 20px;
     display: block;
+    position: relative;
+    top: 50px;
 }
 .container {
     width: 1140px;
     margin: 0 auto;
     background-color: palegoldenrod;
+    padding-top: 100px;
 }
 .col-7 {
     width: 665px;
@@ -34,4 +37,14 @@ h1 {
     content: "";
     display: table;
     clear: both;
+}
+.date {
+    background-color: papayawhip;
+    position: fixed;
+    top: 0px;
+}
+.notify {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
