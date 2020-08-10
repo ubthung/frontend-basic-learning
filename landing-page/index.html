@@ -11,25 +11,27 @@
     <link rel="stylesheet" href="resources/css/queries.css">
 </head>
 <body>
-    <header>
-        <a href="#"><img class="logo" src="resources/img/logo.png" alt="logo"></a>
-        <ul class="main-nav">
-            <li><a href="#">How clients think</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <header id="home">
+        <nav>
+            <a href="#home"><img class="logo" src="resources/img/logo.png" alt="logo"></a>
+            <ul class="main-nav">
+                <li><a href="#testimonials">How clients think</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
         <div class="clearfix"></div>
         <div class="row">
             <div class="heading-main-box">
                 <h1>We will study<br>English together.<br>
                     So join with us.</h1>
-                <a href="#" class="btn">Tell me more</a>
-                <a href="#" class="btn">Join us</a>
+                <a href="#about" class="btn">Tell me more</a>
+                <a href="#product" class="btn">Join us</a>
             </div>
         </div>
     </header>
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="row">
             <h2>About Us</h2>
             <p class="p-long">
@@ -64,7 +66,7 @@ pay so much money for being good at English, we’re here to help you
             </div>
         </div>
     </section>
-    <section class="products-section">
+    <section class="products-section" id="product">
         <h2>Products</h2>
         <div class="row">
             <div class="col span-1-of-3">
@@ -102,7 +104,7 @@ pay so much money for being good at English, we’re here to help you
             </div>
         </div>
     </section>
-    <section class="testimonials-section">
+    <section class="testimonials-section" id="testimonials">
         <h2>Testimonials</h2>
         <div class="row">
             <div class="col span-1-of-3">
@@ -134,7 +136,7 @@ too. Hope that one day, you can come and join in this class.
             </div>
         </div>
     </section>
-    <section class="sponsors-section">
+    <section class="sponsors-section" id="sponsors">
         <h2>Sponsors</h2>
         <div class="row">
             <ul class="sponsors-showcase clearfix">
@@ -191,7 +193,7 @@ too. Hope that one day, you can come and join in this class.
             </ul>
         </div>
     </section>
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <div class="row">
             <div class="col span-1-of-3">
                 <ul class="information">
@@ -242,5 +244,8 @@ too. Hope that one day, you can come and join in this class.
     <footer>
         Copyright &copy; 2020 by SELFTAUGHT TEAM
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
 </body>
 </html>

@@ -163,6 +163,24 @@ header {
     width: 1140px;
 }
 
+/* ----- sticky ----- */
+.sticky {
+    background-color: rgba(2, 33, 64, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    height: 70px;
+}
+.sticky .logo {
+    width: 250px;
+    margin-top: -40px;
+}
+.sticky .main-nav {
+    margin-top: 30px;
+}
+
 /* ----- ABOUT SECTION ----- */
 .about-picture {
     position: relative;
