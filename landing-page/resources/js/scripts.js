@@ -19,4 +19,14 @@ $(document).ready(function(){
         }, 700);
         event.preventDefault();
     });
+
+    // mobile navigation
+    $('.mobile-nav-icon').click(function(){
+        $('.main-nav').slideToggle(200); // display: none <--> block
+        if ($('.mobile-nav-icon').hasClass('fa-bars')) {
+            $('.mobile-nav-icon').addClass('fa-times').removeClass('fa-bars');
+        } else {
+            $('.mobile-nav-icon').addClass('fa-bars').removeClass('fa-times')
+        }
+    });
 });

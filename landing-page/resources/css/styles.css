@@ -127,6 +127,7 @@ header {
     float: left;
     margin-left: 70px;
     margin-top: -50px;
+    margin-bottom: -100px;
 }
 
 .main-nav {
@@ -171,14 +172,29 @@ header {
     left: 0;
     z-index: 900;
     width: 100%;
-    height: 70px;
+    padding-bottom: 20px;
 }
 .sticky .logo {
     width: 250px;
     margin-top: -40px;
+    margin-bottom: -70px;
 }
 .sticky .main-nav {
     margin-top: 30px;
+}
+
+/* ----- mobile navigation icon ----- */
+.mobile-nav-icon {
+    font-size: 200%;
+    color: #6b95bd;
+    position: absolute;
+    top: 55px;
+    right: 100px;
+    display: none;
+}
+
+.sticky .mobile-nav-icon {
+    top: 30px;
 }
 
 /* ----- ABOUT SECTION ----- */
