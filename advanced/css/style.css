@@ -60,3 +60,32 @@ header{
     font-weight: 700;
     letter-spacing: 18px;
 }
+
+.text-box {
+    text-align: center;
+}
+.btn,
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+}
+
+.btn:active{
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.btn-white{
+    color: #777777;
+    background-color: #fff;
+}
