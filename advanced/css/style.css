@@ -20,7 +20,7 @@ body {
     box-sizing: border-box;
 }
 
-header{
+.header{
     background-image: 
     linear-gradient(to right bottom, rgba(142, 158, 252, .8),rgba(28, 62, 255, .8)),
     url('../img/background1.jpg');
@@ -30,12 +30,12 @@ header{
     height: 95vh;
 }
 
-header{
+.header{
     -webkit-clip-path: ellipse(60% 60% at 50% 33%);
     clip-path: ellipse(60% 60% at 50% 33%);
 }
 
-.text-box{
+.header__text-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,11 +43,11 @@ header{
     text-align: center;
 }
 
-.logo{
+.header__logo{
     height: 7rem;
 } 
 
-.logo-box{
+.header__logo-box{
     position: absolute;
     top: 3rem;
     left: 3rem;
@@ -59,14 +59,14 @@ header{
     margin-bottom: 6rem;
 }
 
-.heading-primary__main{
+.heading-primary--main{
     display: block;
     font-size: 6.2rem;
     font-weight: 400;
     letter-spacing: 1.5rem;
 }
 
-.heading-primary__sub{
+.heading-primary--sub{
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -109,12 +109,12 @@ header{
     transform: translateY(-.1rem);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
-.btn-white{
+.btn--white{
     color: #777777;
     background-color: #fff;
 }
 
-.btn-white::after{
+.btn--white::after{
     background-color: #fff;
 }
 
@@ -123,15 +123,15 @@ header{
     opacity: 0;
 }
 
-.heading-primary__main{
+.heading-primary--main{
     animation: moveInLeft 1s ease-out;
 }
 
-.heading-primary__sub{
+.heading-primary--sub{
     animation: moveInRight 1s ease-out
 }
 
-.btn-animated{
+.btn--animated{
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
